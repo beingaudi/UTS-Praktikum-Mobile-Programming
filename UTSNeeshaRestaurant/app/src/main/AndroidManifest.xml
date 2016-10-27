@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dinda.utsneesharestaurant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name=".com.example.dinda.utsneesharestaurant.login_layout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu_Activity"
+            android:label="@string/title_activity_menu_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pesan_Activity" />
+        <activity android:name=".List_Activity" />
+        <activity android:name=".Profil_Activity" />
+        <activity android:name=".Detail_Pesanan" />
+        <activity android:name=".Nama_Makanan"></activity>
+    </application>
+
+</manifest>
